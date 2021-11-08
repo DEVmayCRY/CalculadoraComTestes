@@ -28,9 +28,9 @@ internal class CalculadoraTest {
     fun pote(){
         assertEquals(100000.0, calculadora.pote(10.0,5))
     }
-
-
-
-
+    @Test
+    fun poteByMyself(){
+        assertEquals(100000.0, calculadora.poteByMyself(10.0,5))
+    }
 }
 

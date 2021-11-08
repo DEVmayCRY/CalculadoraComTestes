@@ -21,5 +21,12 @@ class Calculadora {
     fun pote(num1: Double, expoente: Int): Double {
         return num1.pow(expoente)
     }
-
+    fun poteByMyself(num: Double, expoente: Int): Double {
+        var x: Double = num
+        val y: Double = num
+        for (i in 1 until expoente){
+            x *= y
+        }
+        return x
+    }
 }
